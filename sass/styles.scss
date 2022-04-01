@@ -1,0 +1,41 @@
+// Import variables
+
+@import "./variables/variables.scss";
+
+// Presets
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 100%;
+  height: 100%;
+  width: 100%;
+  font-family: $font-primary;
+}
+
+// Import components
+
+@import "./components/header.scss";
+@import "./components/footer.scss";
+
+// Import pages
+
+@import "./pages/home.scss";
