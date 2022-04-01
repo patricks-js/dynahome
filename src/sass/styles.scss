@@ -1,6 +1,6 @@
 // Import variables
 
-@import "./variables/variables.scss";
+@import "./variables.scss";
 
 // Presets
 
@@ -39,3 +39,6 @@ body {
 // Import pages
 
 @import "./pages/home.scss";
+@import "./pages/contact.scss";
+@import "./pages/portfolio.scss";
+@import "./pages/about.scss";
